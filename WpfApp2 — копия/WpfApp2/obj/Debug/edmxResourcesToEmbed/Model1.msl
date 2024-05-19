@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище lastprakModelContainer" CdmEntityContainer="lastprakEntities1">
+    <EntitySetMapping Name="Activity">
+      <EntityTypeMapping TypeName="lastprakModel.Activity">
+        <MappingFragment StoreEntitySet="Activity">
+          <ScalarProperty Name="Idactivity" ColumnName="Idactivity" />
+          <ScalarProperty Name="activity1" ColumnName="activity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Activity_Event">
+      <EntityTypeMapping TypeName="lastprakModel.Activity_Event">
+        <MappingFragment StoreEntitySet="Activity_Event">
+          <ScalarProperty Name="IDActivityEvent" ColumnName="IDActivityEvent" />
+          <ScalarProperty Name="activityID" ColumnName="activityID" />
+          <ScalarProperty Name="eventID" ColumnName="eventID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Activity_Topic">
+      <EntityTypeMapping TypeName="lastprakModel.Activity_Topic">
+        <MappingFragment StoreEntitySet="Activity_Topic">
+          <ScalarProperty Name="IDActivityTopic" ColumnName="IDActivityTopic" />
+          <ScalarProperty Name="activityID" ColumnName="activityID" />
+          <ScalarProperty Name="topicID" ColumnName="topicID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Activity_User">
+      <EntityTypeMapping TypeName="lastprakModel.Activity_User">
+        <MappingFragment StoreEntitySet="Activity_User">
+          <ScalarProperty Name="IDActivityUser" ColumnName="IDActivityUser" />
+          <ScalarProperty Name="activityID" ColumnName="activityID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City">
+      <EntityTypeMapping TypeName="lastprakModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Idcity" ColumnName="Idcity" />
+          <ScalarProperty Name="City1" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Country">
+      <EntityTypeMapping TypeName="lastprakModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="Idcountry" ColumnName="Idcountry" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Language" ColumnName="Language" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Event">
+      <EntityTypeMapping TypeName="lastprakModel.Event">
+        <MappingFragment StoreEntitySet="Event">
+          <ScalarProperty Name="Idevent" ColumnName="Idevent" />
+          <ScalarProperty Name="event1" ColumnName="event" />
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+          <ScalarProperty Name="DAYS" ColumnName="DAYS" />
+          <ScalarProperty Name="cityID" ColumnName="cityID" />
+          <ScalarProperty Name="topicID" ColumnName="topicID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="lastprakModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="Idrole" ColumnName="Idrole" />
+          <ScalarProperty Name="Role1" ColumnName="Role" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sex">
+      <EntityTypeMapping TypeName="lastprakModel.Sex">
+        <MappingFragment StoreEntitySet="Sex">
+          <ScalarProperty Name="Idsex" ColumnName="Idsex" />
+          <ScalarProperty Name="SexName" ColumnName="SexName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Topic">
+      <EntityTypeMapping TypeName="lastprakModel.Topic">
+        <MappingFragment StoreEntitySet="Topic">
+          <ScalarProperty Name="Idtopic" ColumnName="Idtopic" />
+          <ScalarProperty Name="topic1" ColumnName="topic" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="lastprakModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Iduser" ColumnName="Iduser" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="dateofbirth" ColumnName="dateofbirth" />
+          <ScalarProperty Name="countryID" ColumnName="countryID" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="sexID" ColumnName="sexID" />
+          <ScalarProperty Name="topicID" ColumnName="topicID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
